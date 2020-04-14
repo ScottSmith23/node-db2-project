@@ -5,9 +5,9 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('sales').insert([
-        {SaleInfo: 'Guccisoldbaby',CarID:'3'},
-        {SaleInfo: 'sold yeet',CarID:'2'},
-        {SaleInfo: 'car sold for like a gorrillion dollar',CarID:'4'}
+        {SaleInfo: 'Guccisoldbaby',CarID:'14'},
+        {SaleInfo: 'sold yeet',CarID:'15'},
+        {SaleInfo: 'car sold for like a gorrillion dollar',CarID:'13'}
       ]);
     });
 };
