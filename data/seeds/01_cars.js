@@ -5,10 +5,10 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('cars').insert([
-        {Make: 'Ching',Model: 'Ping',VIN: '8000',Mileage: '1234'},
-        {Make: 'ayy',Model: 'meep',VIN: '1234',Mileage: 'rowValue1'},
-        {Make: 'lmao',Model: 'rowValue1',VIN: '4321',Mileage: 'rowValue1'},
-        {Make: 'tehhee',Model: 'rowValue1',VIN: '8765',Mileage: 'rowValue1'}
+        {Make: 'FORD',Model: 'ESCORT',VIN: '39733',Mileage: '1234'},
+        {Make: 'HONDA',Model: 'ACCORD',VIN: '33823',Mileage: '246413'},
+        {Make: 'TOYOTA',Model: 'CAMRY',VIN: '15896',Mileage: '523521'},
+        {Make: 'HONDA',Model: 'CIVIC',VIN: '17457',Mileage: '12342'}
       ]);
     });
 };
